@@ -24,7 +24,7 @@ public class PatientController {
         return patientRepository.save(patient);
     }
     @GetMapping("/{cin}")
-    public Patient getByCin(@PathVariable int cin)
+    public Patient getByCin(@PathVariable String cin)
     {
         return patientRepository.getByCin(cin).orElse(new Patient("DoesNotExist"));
     }
