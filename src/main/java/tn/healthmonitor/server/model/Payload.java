@@ -13,10 +13,14 @@ import java.util.Date;
 @Data
 public class Payload {
     @DBRef
-    User user;
+    Patient patient;
     @CreatedDate
     Date creationDate;
     String temperature;
+    String bpm;
+    String respiratoryRate;
+    String gatewayID;
+    String healthState;
 
 
 

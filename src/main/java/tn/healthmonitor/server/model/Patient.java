@@ -12,19 +12,21 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Patient {
     @Id
     String cin ;
-    String ipAddress;
-    String name;
-    String surName;
-    public User(String cin,String str)
+    String fullName;
+    String age;
+    String powerBILinkTemp;
+    String powerBILinkBpm;
+    String powerBILinkResp;
+    public Patient(String cin, String str)
     {
         this.cin = cin ;
 
     }
-    public User(String str)
+    public Patient(String str)
     {
-        this("0",str,str,str);
+        this("0",str,str,str,str,str);
     }
 }

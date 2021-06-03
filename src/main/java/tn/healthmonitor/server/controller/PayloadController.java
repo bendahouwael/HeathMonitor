@@ -1,10 +1,9 @@
 package tn.healthmonitor.server.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.web.bind.annotation.*;
 import tn.healthmonitor.server.model.Payload;
-import tn.healthmonitor.server.model.User;
+import tn.healthmonitor.server.model.Patient;
 import tn.healthmonitor.server.repository.PayloadRepository;
 
 import java.util.Date;
@@ -30,8 +29,8 @@ public class PayloadController {
     @GetMapping("/{cin}")
     public List<Payload> getByUser(@PathVariable String cin)
     {
-        User user = new User(cin);
-        return payloadRepository.getAllByUser(user);
+        Patient patient = new Patient(cin);
+        return payloadRepository.getAllByPatient(patient);
     }
     @DeleteMapping("/{date}")
     public void deleteBefore(@PathVariable Date date)
