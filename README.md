@@ -4,7 +4,7 @@ Le système est composé d'un ensemble de dispositives médicaux connectés par 
 
 celon l'architechture ci dessous : 
 
-
+![alt text](Architecture of the solution.PNG)
 
 Auteurs : bendahouwael & waelmhimdi77
 
