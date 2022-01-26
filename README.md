@@ -1,4 +1,4 @@
-Auteurs : bendahouwael ![alt text](https://github.com/bendahouwael) & waelmhimdi77 ![alt text](https://github.com/waelmhimdi77)
+Auteurs : <a href="https://github.com/bendahouwael" target="_blank">bendahouwael</a> & <a href="https://github.com/waelmhimdi77" target="_blank">waelmhimdi77</a>
 
 HeathMonitor est un système conçu pour la télémédecine des patients COVID. 
 
