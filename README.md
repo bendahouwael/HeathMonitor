@@ -4,7 +4,7 @@ Le système est composé d'un ensemble de dispositives médicaux connectés par 
 
 celon l'architechture ci dessous : 
 
-![alt text](Architecture of the solution.PNG)
+![alt text](https://github.com/bendahouwael/HeathMonitor/blob/8e0a937ba843185e85f3e1f1c60e6f84cf06d119/Architecture%20of%20the%20solution.PNG)
 
 Auteurs : bendahouwael & waelmhimdi77
 
